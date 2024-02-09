@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WalkerCount</title>
+    <title>GemCounter</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <h1>Gem Counter App</h1>
+        <h2 id="count-el">0</h2>
+        <button id="add-btn" onclick="increament()">Add</button>
+        <button id="save-btn" onclick="saved()">Save</button>
+        <p id="recent-saved">Recent steps : </p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
